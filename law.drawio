@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-22T12:27:31.876Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="-QMCGA0m7R_15PL3yFcf" version="12.1.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-10-22T12:30:41.391Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="zEZnU8W70uTTu4y8sjAl" version="12.1.3" type="github" pages="1">
   <diagram id="VBOkQ_S7a9ot1E7_a6rG" name="Page-1">
     <mxGraphModel dx="932" dy="448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -54,7 +54,7 @@
         <mxCell id="ZTXmPjuoZ7FuK3dKGlyl-46" value="检察院" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="690" y="990" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="ZTXmPjuoZ7FuK3dKGlyl-49" value="&lt;h1&gt;&lt;span style=&quot;color: rgb(73 , 73 , 73) ; font-size: 11pt ; font-weight: normal&quot;&gt;接触案件种类比较广，不会有很多琐事&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+        <mxCell id="ZTXmPjuoZ7FuK3dKGlyl-49" value="&lt;h1&gt;&lt;span style=&quot;color: rgb(73, 73, 73); font-size: 11pt;&quot;&gt;接触案件种类比较广，不会有很多琐事&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="740" y="800" width="130" height="98" as="geometry"/>
         </mxCell>
         <mxCell id="ZTXmPjuoZ7FuK3dKGlyl-50" value="&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;&lt;span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;ql-long-23941791&quot; style=&quot;line-height: 1.7 ; margin-bottom: 0pt ; margin-top: 0pt ; font-size: 11pt ; color: #494949&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;ql-long-23941791&quot; style=&quot;line-height: 1.7 ; margin-bottom: 0pt ; margin-top: 0pt ; font-size: 11pt ; color: #494949&quot;&gt;&lt;span class=&quot;ql-author-23941791&quot;&gt;主要是刑事案件&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
@@ -113,7 +113,7 @@
         <mxCell id="ZTXmPjuoZ7FuK3dKGlyl-78" value="体制内的有编制，&#xa;具体的没有了解过，&#xa;不一定公务员类" style="rounded=1;arcSize=10;dashed=1;strokeColor=#000000;fillColor=none;gradientColor=none;dashPattern=8 3 1 3;strokeWidth=2;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="790" y="1090" width="150" height="140" as="geometry"/>
         </mxCell>
-        <mxCell id="ZTXmPjuoZ7FuK3dKGlyl-79" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;p class=&quot;ql-long-23941791&quot; style=&quot;line-height: 1.7; margin-bottom: 0pt; margin-top: 0pt; font-size: 14px; color: rgb(73, 73, 73);&quot;&gt;&lt;span class=&quot;ql-author-23941791&quot; style=&quot;font-size: 14px;&quot;&gt;大型国企 央企，发展前景好的企业，大型互联网企业&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="ZTXmPjuoZ7FuK3dKGlyl-79" value="&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;p class=&quot;ql-long-23941791&quot; style=&quot;line-height: 1.7 ; margin-bottom: 0pt ; margin-top: 0pt ; font-size: 14px&quot;&gt;&lt;span class=&quot;ql-author-23941791&quot; style=&quot;font-size: 14px&quot;&gt;大型国企 央企，发展前景好的企业，大型互联网企业&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="440" y="1292" width="190" height="61" as="geometry"/>
         </mxCell>
         <mxCell id="ZTXmPjuoZ7FuK3dKGlyl-81" value="" style="curved=1;endArrow=classic;html=1;" parent="1" edge="1">
@@ -142,7 +142,7 @@
           <mxGeometry x="75" y="1450" width="345" height="180" as="geometry"/>
         </mxCell>
         <mxCell id="ZTXmPjuoZ7FuK3dKGlyl-88" value="公务员 律师后期转&#xa;法务，也是一个不错的&#xa;选择，同样的条件下，&#xa;法务&#xa;会比公务员好一些" style="rounded=1;arcSize=10;dashed=1;strokeColor=#000000;fillColor=none;gradientColor=none;dashPattern=8 3 1 3;strokeWidth=2;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="750" y="1280" width="150" height="140" as="geometry"/>
+          <mxGeometry x="675" y="1262.5" width="150" height="140" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
