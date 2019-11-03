@@ -1,1 +1,96 @@
-<mxfile host="www.draw.io" modified="2019-11-03T07:10:12.436Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="f7JWDzOhuYHUd-O06hck" version="12.1.9" type="github" pages="1"><diagram id="P-lEfpG4pTblO9kdbzqe" name="Page-1">1ZZvb5swEMY/zb2shG3++WVIabdJkypl0l674AIdYOqYEPbpZxeTBEjVTlqUVYqS83PnM/zuIQLIutrfS9bk30XKS8BOugdyCxhTgvW3EfpB8B1nEDJZpIOEjsKm+M2tOJa1Rcq3k0IlRKmKZiomoq55oiYak1J007InUU5PbVjGF8ImYeVS/VmkKreq77nHxBdeZLk9GhPiD5mKjdX2VrY5S0V3IpEYyFoKoYao2q95aeCNYIZ9d29kD1cmea0+soE8NC/4Jnt+LnYP3+6/vvxYhcGN7bJjZWvv2DNNuWg0AeyzqgES1Y9b86MTvWjNrXGuTOMazJF+qY+PHqWOMhPlbMfr5d5XBKofwepr0zPUi6jLC8U3DUtMptMuMj1UVeoV0uGTqJX1BfIPnXZcKr5/kwQ68NXG5KLiSva6ZNwwjsSaEiHHG4TuZMZjUX4y3tBqzNoqO/Q+gteBZf8Xc8CLOSyIaf80JkxaWfaRZMkvrt7HJ0Vbpzy9HEzsTmEGdMnSO4MycC7FkixZxiFQAvQW4gDoClYxxC5EK/OZY54Ce4fuP+BH0Iyf/0Ev+pfi557h50HkAEU2COn1sc2eYUqcK2PzzmCjEGEINTYfVndA3f8OG0Lo2nYLPgU3MuNGnGv7LfwU3OZ+cy/496aXx9ep19zJSymJ/wA=</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-11-03T12:22:46.085Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="I6nslOo8JOZQKZTR_JdC" version="12.1.9" type="github" pages="1">
+  <diagram id="P-lEfpG4pTblO9kdbzqe" name="Page-1">
+    <mxGraphModel dx="932" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="3Ppq2-gjjivPJGIqTA87-1" value="5 people&amp;nbsp; you meet in &lt;br&gt;haven&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="120" y="1105" width="120" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="3Ppq2-gjjivPJGIqTA87-2" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="240" y="795" width="50" height="700" as="geometry"/>
+        </mxCell>
+        <mxCell id="3Ppq2-gjjivPJGIqTA87-3" value="蓝皮人" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="765" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="3Ppq2-gjjivPJGIqTA87-4" value="少尉" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="930" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="3Ppq2-gjjivPJGIqTA87-5" value="鲁比" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="1115" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="3Ppq2-gjjivPJGIqTA87-7" value="玛格丽特" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="1300" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="3Ppq2-gjjivPJGIqTA87-8" value="小女孩" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="1465" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="1EvBFMEKfeQbD_3bhtb9-1" value="" style="curved=1;endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="960" as="sourcePoint"/>
+            <mxPoint x="820" y="880" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="650" y="970"/>
+              <mxPoint x="580" y="910"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1EvBFMEKfeQbD_3bhtb9-2" value="公平&#xa;不经意间的一件&#xa;小事对别人的生活&#xa;产生了不可&#xa;估量的影响&#xa;而自己却无从所知" style="rounded=1;arcSize=10;dashed=1;strokeColor=#000000;fillColor=none;gradientColor=none;dashPattern=8 3 1 3;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="820" y="570" width="160" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="1EvBFMEKfeQbD_3bhtb9-3" value="" style="curved=1;endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="435" y="800" as="sourcePoint"/>
+            <mxPoint x="820" y="630" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="740" y="770"/>
+              <mxPoint x="680" y="710"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1EvBFMEKfeQbD_3bhtb9-4" value="牺牲&#xa;自己的牺牲&#xa;别人的牺牲&#xa;成就了更好的自己&#xa;成就了其他人" style="rounded=1;arcSize=10;dashed=1;strokeColor=#000000;fillColor=none;gradientColor=none;dashPattern=8 3 1 3;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="840" y="810" width="160" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="1EvBFMEKfeQbD_3bhtb9-5" value="" style="curved=1;endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="1150" as="sourcePoint"/>
+            <mxPoint x="820" y="1070" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="650" y="1160"/>
+              <mxPoint x="580" y="1100"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1EvBFMEKfeQbD_3bhtb9-6" value="宽恕/亲情&#xa;看到了一些自己&#xa;看不到的东西&#xa;从而宽恕他人&#xa;每个人独有自己的&#xa;不得已&#xa;和善良之处" style="rounded=1;arcSize=10;dashed=1;strokeColor=#000000;fillColor=none;gradientColor=none;dashPattern=8 3 1 3;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1015" width="160" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="1EvBFMEKfeQbD_3bhtb9-7" value="" style="curved=1;endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="447" y="1330" as="sourcePoint"/>
+            <mxPoint x="850" y="1320" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="657" y="1340"/>
+              <mxPoint x="587" y="1280"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1EvBFMEKfeQbD_3bhtb9-10" value="亲情/爱情/回忆&#xa;爱不会终结&#xa;会被回忆填满" style="rounded=1;arcSize=10;dashed=1;strokeColor=#000000;fillColor=none;gradientColor=none;dashPattern=8 3 1 3;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="870" y="1230" width="160" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="1EvBFMEKfeQbD_3bhtb9-11" value="" style="curved=1;endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="1500" as="sourcePoint"/>
+            <mxPoint x="843" y="1490" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="650" y="1510"/>
+              <mxPoint x="580" y="1450"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1EvBFMEKfeQbD_3bhtb9-12" value="伤害小女孩&#xa;拯救小女孩&#xa;自我救赎" style="rounded=1;arcSize=10;dashed=1;strokeColor=#000000;fillColor=none;gradientColor=none;dashPattern=8 3 1 3;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="860" y="1415" width="160" height="160" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
