@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-11-26T05:40:20.793Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="3UV7eRozfe3Wau3Oxc31" version="12.3.0" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-26T10:44:03.912Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="0CRRnsk6GT1fhBASOwoz" version="12.3.0" type="github" pages="1">
   <diagram id="m3J9kFqykPF54zMLwvkE" name="Page-1">
-    <mxGraphModel dx="3270" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="3270" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -8,7 +8,7 @@
           <mxGeometry x="-1630" y="260" width="200" height="150" as="geometry"/>
         </mxCell>
         <mxCell id="-C9dd63Dn9SHJSaXkGCF-1" value="http发展史" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-2280" y="310" width="120" height="80" as="geometry"/>
+          <mxGeometry x="-2280" y="500" width="120" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="-C9dd63Dn9SHJSaXkGCF-2" value="" style="curved=1;endArrow=classic;html=1;exitX=1;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1" source="-C9dd63Dn9SHJSaXkGCF-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -68,14 +68,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="d7jbJatVRlTsx0HvFHzn-2" value="http2.0&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="d7jbJatVRlTsx0HvFHzn-2" value="http2.0&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-1860" y="810" width="120" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="d7jbJatVRlTsx0HvFHzn-3" value="http2提升了网络速度&#xa;1、http2一个域名只使用一个长链接&#xa;2、并行请求解决头部阻塞的问题&#xa;3、多路复用机制，每个请求都有一个对应的ID，浏览器可以根据&#xa;自己的喜好（有缓存无缓存、是否重要决定返回什么数据）&#xa;可以暂停其他资源的请求，优先处理某个ID的资源&#xa;&#xa;4、二进制分帧层，会讲请求行、请求头、请求体、响应行、响应头、&#xa;响应体都拆分成含有ID的帧，最后再合并相同id的数据&#xa;5、可设置请求的优先级  服务器推送（返回请求的http页面，顺便推送&#xa;其中的javascript css资源） 请求头部的压缩，有些请求头部的信息&#xa;远大于有效数据的大小&#xa;" style="rounded=1;arcSize=10;dashed=1;strokeColor=#ff0000;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;align=left;spacingLeft=8;spacingRight=8;" vertex="1" parent="1">
           <mxGeometry x="-1639" y="791" width="390" height="200" as="geometry"/>
         </mxCell>
         <mxCell id="d7jbJatVRlTsx0HvFHzn-10" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#dddddd;html=1;whiteSpace=wrap;fillColor=#ffffff;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-2070" y="1040" width="260" height="150" as="geometry"/>
+          <mxGeometry x="-2310" y="950" width="260" height="150" as="geometry"/>
         </mxCell>
         <mxCell id="d7jbJatVRlTsx0HvFHzn-11" value="http2&lt;br&gt;" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;resizeWidth=1;" vertex="1" parent="d7jbJatVRlTsx0HvFHzn-10">
           <mxGeometry width="260" height="30" relative="1" as="geometry"/>
@@ -106,12 +106,28 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="d7jbJatVRlTsx0HvFHzn-17" value="ip" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;html=1;shadow=0;dashed=1;shape=mxgraph.bootstrap.bottomButton;rSize=5;perimeter=none;whiteSpace=wrap;resizeWidth=1;fontColor=#E6E6E6;dashPattern=1 1;" vertex="1" parent="1">
-          <mxGeometry x="-2070" y="1190" width="260" height="29" as="geometry">
+          <mxGeometry x="-2310" y="1100" width="260" height="29" as="geometry">
             <mxPoint y="-30" as="offset"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="d7jbJatVRlTsx0HvFHzn-18" value="IP&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="-2000" y="1194.5" width="40" height="20" as="geometry"/>
+          <mxGeometry x="-2250" y="1109" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="d7jbJatVRlTsx0HvFHzn-19" value="" style="curved=1;endArrow=classic;html=1;fontColor=#000000;" edge="1" parent="1" source="-C9dd63Dn9SHJSaXkGCF-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2000" y="940" as="sourcePoint"/>
+            <mxPoint x="-1880" y="1160" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="-1950" y="940"/>
+              <mxPoint x="-2000" y="930"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d7jbJatVRlTsx0HvFHzn-21" value="http3.0&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1879" y="1119" width="120" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="d7jbJatVRlTsx0HvFHzn-22" value="基于UDP quic实现http3&#xa;1、udp本身支持的主要是视频 音频，保证数据传输的时效性，不保&#xa;证其完整性，quic在其基础上增加保证数据传输可靠性、数据重传、&#xa;堵塞控制的等tcp的特性&#xa;2、使用tsl 加密，减少握手所花时间&#xa;3、quic在同一物理连接上可以有多个独立的数据流，解决了TCP头部&#xa;堵塞的问题&#xa;4、实现困难   服务器 客户端支持不佳   系统支持  中间设备支持" style="rounded=1;arcSize=10;dashed=1;strokeColor=#ff0000;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;align=left;spacingLeft=8;spacingRight=8;" vertex="1" parent="1">
+          <mxGeometry x="-1690" y="1180" width="390" height="200" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
