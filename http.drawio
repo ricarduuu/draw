@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-11-27T06:31:12.042Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="ETASB6EjsgPq2LUA2lRH" version="12.3.0" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-02T03:16:23.434Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="ip_hN4cfhbCw32jnA9ln" version="12.3.3" type="github" pages="1">
   <diagram id="m3J9kFqykPF54zMLwvkE" name="Page-1">
-    <mxGraphModel dx="3270" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="3271" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -10,7 +10,7 @@
         <mxCell id="-C9dd63Dn9SHJSaXkGCF-1" value="http发展史" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-2280" y="500" width="120" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="-C9dd63Dn9SHJSaXkGCF-2" value="" style="curved=1;endArrow=classic;html=1;exitX=1;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1" source="-C9dd63Dn9SHJSaXkGCF-1">
+        <mxCell id="-C9dd63Dn9SHJSaXkGCF-2" value="" style="curved=1;endArrow=classic;html=1;exitX=1;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="-C9dd63Dn9SHJSaXkGCF-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-2150" y="341" as="sourcePoint"/>
             <mxPoint x="-1940" y="216" as="targetPoint"/>
@@ -29,7 +29,7 @@
         <mxCell id="QJzcUnjFtNNjHItLSUZi-4" value="请求方式单一get&#xa;文件诶行单一&#xa;get" style="rounded=1;arcSize=10;dashed=1;strokeColor=#000000;fillColor=none;gradientColor=none;dashPattern=8 3 1 3;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="-1670" y="70" width="110" height="148" as="geometry"/>
         </mxCell>
-        <mxCell id="QJzcUnjFtNNjHItLSUZi-9" value="" style="curved=1;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" target="QJzcUnjFtNNjHItLSUZi-10" edge="1" source="-C9dd63Dn9SHJSaXkGCF-1">
+        <mxCell id="QJzcUnjFtNNjHItLSUZi-9" value="" style="curved=1;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="-C9dd63Dn9SHJSaXkGCF-1" target="QJzcUnjFtNNjHItLSUZi-10" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-2150" y="360" as="sourcePoint"/>
             <mxPoint x="-1900" y="381" as="targetPoint"/>
@@ -58,7 +58,7 @@
         <mxCell id="QJzcUnjFtNNjHItLSUZi-13" value="1、持久链接，不是每次http请求都必须建立tcp链接，对于&#xa;同一个域名，可以同时建立6个tcp持久链接，但是每个长&#xa;链接内部还存在着头部阻塞&#xa;2、不成熟的http管线话，解决头部阻塞的问题，最终被放弃&#xa;3、虚拟主机支持，一台物理机绑定多个虚拟机并且拥有&#xa;自己的单独的域名&#xa;&#xa;4、chunk transfer服务器将数据&#xa;分割成若干数据块，以长度为0的&#xa;数据块作为发送结束的标志，&#xa;较好的解决了动态内容长度不确定&#xa;5、客户端引入了 cookie和&#xa;安全机制，&#xa;&#xa;～tcp启动慢（减少网络堵塞的一种策略），像汽车加速一样&#xa;进入理想的状态&#xa;～同时开启多条tcp，会产生固定的带宽的竞争，影响关键&#xa;资源的下载速度&#xa;～由于一些不确定因素，丢包 响应速度慢等，会产生头&#xa;部阻塞" style="rounded=1;arcSize=10;dashed=1;strokeColor=#000000;fillColor=none;gradientColor=none;dashPattern=8 3 1 3;strokeWidth=2;align=left;spacingLeft=10;spacingBottom=10;spacingRight=10;" parent="1" vertex="1">
           <mxGeometry x="-1640" y="460" width="340" height="290" as="geometry"/>
         </mxCell>
-        <mxCell id="d7jbJatVRlTsx0HvFHzn-1" value="" style="curved=1;endArrow=classic;html=1;" edge="1" parent="1" source="-C9dd63Dn9SHJSaXkGCF-1">
+        <mxCell id="d7jbJatVRlTsx0HvFHzn-1" value="" style="curved=1;endArrow=classic;html=1;" parent="1" source="-C9dd63Dn9SHJSaXkGCF-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-2030" y="740" as="sourcePoint"/>
             <mxPoint x="-1860" y="850" as="targetPoint"/>
@@ -68,52 +68,52 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="d7jbJatVRlTsx0HvFHzn-2" value="http2.0&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="d7jbJatVRlTsx0HvFHzn-2" value="http2.0&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-1860" y="810" width="120" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="d7jbJatVRlTsx0HvFHzn-3" value="http2提升了网络速度&#xa;1、http2一个域名只使用一个长链接&#xa;2、并行请求解决头部阻塞的问题&#xa;3、多路复用机制，每个请求都有一个对应的ID，浏览器可以根据&#xa;自己的喜好（有缓存无缓存、是否重要决定返回什么数据）&#xa;可以暂停其他资源的请求，优先处理某个ID的资源&#xa;&#xa;4、二进制分帧层，会讲请求行、请求头、请求体、响应行、响应头、&#xa;响应体都拆分成含有ID的帧，最后再合并相同id的数据&#xa;5、可设置请求的优先级  服务器推送（返回请求的http页面，顺便推送&#xa;其中的javascript css资源） 请求头部的压缩，有些请求头部的信息&#xa;远大于有效数据的大小&#xa;" style="rounded=1;arcSize=10;dashed=1;strokeColor=#ff0000;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;align=left;spacingLeft=8;spacingRight=8;" vertex="1" parent="1">
+        <mxCell id="d7jbJatVRlTsx0HvFHzn-3" value="http2提升了网络速度&#xa;1、http2一个域名只使用一个长链接&#xa;2、并行请求解决头部阻塞的问题&#xa;3、多路复用机制，每个请求都有一个对应的ID，浏览器可以根据&#xa;自己的喜好（有缓存无缓存、是否重要决定返回什么数据）&#xa;可以暂停其他资源的请求，优先处理某个ID的资源&#xa;&#xa;4、二进制分帧层，会讲请求行、请求头、请求体、响应行、响应头、&#xa;响应体都拆分成含有ID的帧，最后再合并相同id的数据&#xa;5、可设置请求的优先级  服务器推送（返回请求的http页面，顺便推送&#xa;其中的javascript css资源） 请求头部的压缩，有些请求头部的信息&#xa;远大于有效数据的大小&#xa;" style="rounded=1;arcSize=10;dashed=1;strokeColor=#ff0000;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;align=left;spacingLeft=8;spacingRight=8;" parent="1" vertex="1">
           <mxGeometry x="-1639" y="791" width="390" height="200" as="geometry"/>
         </mxCell>
-        <mxCell id="d7jbJatVRlTsx0HvFHzn-10" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#dddddd;html=1;whiteSpace=wrap;fillColor=#ffffff;align=left;" vertex="1" parent="1">
+        <mxCell id="d7jbJatVRlTsx0HvFHzn-10" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#dddddd;html=1;whiteSpace=wrap;fillColor=#ffffff;align=left;" parent="1" vertex="1">
           <mxGeometry x="-2310" y="950" width="260" height="150" as="geometry"/>
         </mxCell>
-        <mxCell id="d7jbJatVRlTsx0HvFHzn-11" value="http2&lt;br&gt;" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;resizeWidth=1;" vertex="1" parent="d7jbJatVRlTsx0HvFHzn-10">
+        <mxCell id="d7jbJatVRlTsx0HvFHzn-11" value="http2&lt;br&gt;" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;resizeWidth=1;" parent="d7jbJatVRlTsx0HvFHzn-10" vertex="1">
           <mxGeometry width="260" height="30" relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="d7jbJatVRlTsx0HvFHzn-12" value="request1 request 2 .........." style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rect;perimeter=none;whiteSpace=wrap;resizeWidth=1;" vertex="1" parent="d7jbJatVRlTsx0HvFHzn-10">
+        <mxCell id="d7jbJatVRlTsx0HvFHzn-12" value="request1 request 2 .........." style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rect;perimeter=none;whiteSpace=wrap;resizeWidth=1;" parent="d7jbJatVRlTsx0HvFHzn-10" vertex="1">
           <mxGeometry width="260" height="30" relative="1" as="geometry">
             <mxPoint y="30" as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="d7jbJatVRlTsx0HvFHzn-13" value="" style="shape=triangle;direction=south;fillColor=#000000;strokeColor=none;perimeter=none;" vertex="1" parent="d7jbJatVRlTsx0HvFHzn-12">
+        <mxCell id="d7jbJatVRlTsx0HvFHzn-13" value="" style="shape=triangle;direction=south;fillColor=#000000;strokeColor=none;perimeter=none;" parent="d7jbJatVRlTsx0HvFHzn-12" vertex="1">
           <mxGeometry x="1" y="0.5" width="10" height="5" relative="1" as="geometry">
             <mxPoint x="-15" y="-2.5" as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="d7jbJatVRlTsx0HvFHzn-14" value="二进制分帧层" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rect;perimeter=none;whiteSpace=wrap;resizeWidth=1;" vertex="1" parent="d7jbJatVRlTsx0HvFHzn-10">
+        <mxCell id="d7jbJatVRlTsx0HvFHzn-14" value="二进制分帧层" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rect;perimeter=none;whiteSpace=wrap;resizeWidth=1;" parent="d7jbJatVRlTsx0HvFHzn-10" vertex="1">
           <mxGeometry width="260" height="30" relative="1" as="geometry">
             <mxPoint y="60" as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="d7jbJatVRlTsx0HvFHzn-15" value="tls(可选)" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rect;perimeter=none;whiteSpace=wrap;resizeWidth=1;" vertex="1" parent="d7jbJatVRlTsx0HvFHzn-10">
+        <mxCell id="d7jbJatVRlTsx0HvFHzn-15" value="tls(可选)" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rect;perimeter=none;whiteSpace=wrap;resizeWidth=1;" parent="d7jbJatVRlTsx0HvFHzn-10" vertex="1">
           <mxGeometry width="260" height="30" relative="1" as="geometry">
             <mxPoint y="90" as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="d7jbJatVRlTsx0HvFHzn-16" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; tcp&lt;br&gt;" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.bottomButton;rSize=5;perimeter=none;whiteSpace=wrap;resizeWidth=1;fontColor=#000000;" vertex="1" parent="d7jbJatVRlTsx0HvFHzn-10">
+        <mxCell id="d7jbJatVRlTsx0HvFHzn-16" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; tcp&lt;br&gt;" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.bottomButton;rSize=5;perimeter=none;whiteSpace=wrap;resizeWidth=1;fontColor=#000000;" parent="d7jbJatVRlTsx0HvFHzn-10" vertex="1">
           <mxGeometry y="1" width="260" height="29" relative="1" as="geometry">
             <mxPoint y="-30" as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="d7jbJatVRlTsx0HvFHzn-17" value="ip" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;html=1;shadow=0;dashed=1;shape=mxgraph.bootstrap.bottomButton;rSize=5;perimeter=none;whiteSpace=wrap;resizeWidth=1;fontColor=#E6E6E6;dashPattern=1 1;" vertex="1" parent="1">
+        <mxCell id="d7jbJatVRlTsx0HvFHzn-17" value="ip" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;html=1;shadow=0;dashed=1;shape=mxgraph.bootstrap.bottomButton;rSize=5;perimeter=none;whiteSpace=wrap;resizeWidth=1;fontColor=#E6E6E6;dashPattern=1 1;" parent="1" vertex="1">
           <mxGeometry x="-2310" y="1100" width="260" height="29" as="geometry">
             <mxPoint y="-30" as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="d7jbJatVRlTsx0HvFHzn-18" value="IP&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="d7jbJatVRlTsx0HvFHzn-18" value="IP&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="-2250" y="1109" width="40" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="d7jbJatVRlTsx0HvFHzn-19" value="" style="curved=1;endArrow=classic;html=1;fontColor=#000000;" edge="1" parent="1" source="-C9dd63Dn9SHJSaXkGCF-1">
+        <mxCell id="d7jbJatVRlTsx0HvFHzn-19" value="" style="curved=1;endArrow=classic;html=1;fontColor=#000000;" parent="1" source="-C9dd63Dn9SHJSaXkGCF-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-2000" y="940" as="sourcePoint"/>
             <mxPoint x="-1880" y="1160" as="targetPoint"/>
@@ -123,11 +123,100 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="d7jbJatVRlTsx0HvFHzn-21" value="http3.0&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="d7jbJatVRlTsx0HvFHzn-21" value="http3.0&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1879" y="1119" width="120" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="d7jbJatVRlTsx0HvFHzn-22" value="基于UDP quic实现http3&#xa;1、udp本身支持的主要是视频 音频，保证数据传输的时效性，不保&#xa;证其完整性，quic在其基础上增加保证数据传输可靠性、数据重传、&#xa;堵塞控制的等tcp的特性&#xa;2、使用tsl 加密，减少握手所花时间&#xa;3、quic在同一物理连接上可以有多个独立的数据流，解决了TCP头部&#xa;堵塞的问题&#xa;4、实现困难   服务器 客户端支持不佳   系统支持  中间设备支持" style="rounded=1;arcSize=10;dashed=1;strokeColor=#ff0000;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;align=left;spacingLeft=8;spacingRight=8;" vertex="1" parent="1">
+        <mxCell id="d7jbJatVRlTsx0HvFHzn-22" value="基于UDP quic实现http3&#xa;1、udp本身支持的主要是视频 音频，保证数据传输的时效性，不保&#xa;证其完整性，quic在其基础上增加保证数据传输可靠性、数据重传、&#xa;堵塞控制的等tcp的特性&#xa;2、使用tsl 加密，减少握手所花时间&#xa;3、quic在同一物理连接上可以有多个独立的数据流，解决了TCP头部&#xa;堵塞的问题&#xa;4、实现困难   服务器 客户端支持不佳   系统支持  中间设备支持" style="rounded=1;arcSize=10;dashed=1;strokeColor=#ff0000;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;align=left;spacingLeft=8;spacingRight=8;" parent="1" vertex="1">
           <mxGeometry x="-1690" y="1180" width="390" height="200" as="geometry"/>
+        </mxCell>
+        <mxCell id="FxdTvAPtLqqA7UkRKLkz-4" value="http缓存" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1160" y="510" width="120" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="FxdTvAPtLqqA7UkRKLkz-5" value="" style="curved=1;endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1040" y="550" as="sourcePoint"/>
+            <mxPoint x="-880" y="490" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="-990" y="550"/>
+              <mxPoint x="-1040" y="500"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FxdTvAPtLqqA7UkRKLkz-6" value="" style="curved=1;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FxdTvAPtLqqA7UkRKLkz-4" target="FxdTvAPtLqqA7UkRKLkz-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1030" y="580" as="sourcePoint"/>
+            <mxPoint x="-880" y="630" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="-1000" y="600"/>
+              <mxPoint x="-970" y="590"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FxdTvAPtLqqA7UkRKLkz-7" value="disk cache&lt;br&gt;磁盘中&lt;br&gt;速度慢" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-880" y="565" width="120" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="FxdTvAPtLqqA7UkRKLkz-8" value="memory cache&lt;br&gt;内存中&lt;br&gt;速度快&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-880" y="450" width="120" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="FxdTvAPtLqqA7UkRKLkz-9" value="" style="curved=1;endArrow=classic;html=1;exitX=0.992;exitY=0.613;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FxdTvAPtLqqA7UkRKLkz-4" target="FxdTvAPtLqqA7UkRKLkz-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1000" y="710" as="sourcePoint"/>
+            <mxPoint x="-890" y="730" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="-950" y="710"/>
+              <mxPoint x="-1000" y="660"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FxdTvAPtLqqA7UkRKLkz-10" value="网络请求/kb&lt;br&gt;速度最慢" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-880" y="760" width="120" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="FxdTvAPtLqqA7UkRKLkz-13" value="、" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-587" y="718" width="30" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="FxdTvAPtLqqA7UkRKLkz-14" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-760" y="500" as="sourcePoint"/>
+            <mxPoint x="-580" y="620" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FxdTvAPtLqqA7UkRKLkz-15" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="FxdTvAPtLqqA7UkRKLkz-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-760" y="605" as="sourcePoint"/>
+            <mxPoint x="-578" y="605" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FxdTvAPtLqqA7UkRKLkz-16" value="" style="endArrow=none;html=1;entryX=-0.008;entryY=0.663;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="FxdTvAPtLqqA7UkRKLkz-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-760" y="800" as="sourcePoint"/>
+            <mxPoint x="-578" y="700" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FxdTvAPtLqqA7UkRKLkz-17" value="浏览器&lt;br&gt;根据请求头&lt;br&gt;自动执行的" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-580" y="580" width="120" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="FxdTvAPtLqqA7UkRKLkz-21" value="service worker&#xa;不是很熟&#xa;但是呢这个是由我们&#xa;决定什么时候去缓存/获取&#xa;文件的" style="rounded=1;arcSize=10;dashed=1;strokeColor=#ff0000;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;align=left;spacingLeft=8;spacingRight=8;" vertex="1" parent="1">
+          <mxGeometry x="-1190" y="653" width="170" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="FxdTvAPtLqqA7UkRKLkz-22" value="常规： 浏览器关闭就失效&#xa;特殊： 1个页面的缓存就&#xa;占用了超级&#xa;多的内存)，那可能在 TAB 、&#xa;没关闭之前，排在前面的缓、&#xa;存就已经失效了&#xa;一个页面中有两个相同的图片，&#xa;即使设置了max-age也不会请&#xa;如果存在内存里面的话，" style="rounded=1;arcSize=10;dashed=1;strokeColor=#ff0000;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;align=left;spacingLeft=8;spacingRight=8;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="320" width="170" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="FxdTvAPtLqqA7UkRKLkz-23" value="expirs: http1.0&#xa;&#xa;绝对时间&#xa;1、本地时间可以被修改&#xa;2、时间格式太复杂易错&#xa;Cache-control： http1.1&#xa;max-age:&#xa;no-cahce&#xa;no-store&#xa;public   所有（客户端代理服&#xa;务器cdn都可以被缓存）&#xa;private: 客户端的才能被缓存" style="rounded=1;arcSize=10;dashed=1;strokeColor=#ff0000;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;align=left;spacingLeft=8;spacingRight=8;" vertex="1" parent="1">
+          <mxGeometry x="-389" y="360" width="170" height="200" as="geometry"/>
+        </mxCell>
+        <mxCell id="FxdTvAPtLqqA7UkRKLkz-24" value="&lt;h1 style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;microsoft yahei&amp;quot;, &amp;quot;sf pro display&amp;quot;, roboto, noto, arial, &amp;quot;pingfang sc&amp;quot;, sans-serif; font-size: 14px; font-weight: 400; background-color: rgb(255, 255, 255);&quot;&gt;no-cache 可以在本地缓存，可以在代理服务器缓存，但是这个缓存要服务器验证才可以使用&lt;/span&gt;&lt;br style=&quot;box-sizing: border-box; outline: 0px; margin: 0px; padding: 0px; overflow-wrap: break-word; font-family: &amp;quot;microsoft yahei&amp;quot;, &amp;quot;sf pro display&amp;quot;, roboto, noto, arial, &amp;quot;pingfang sc&amp;quot;, sans-serif; font-size: 14px; font-weight: 400; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;microsoft yahei&amp;quot;, &amp;quot;sf pro display&amp;quot;, roboto, noto, arial, &amp;quot;pingfang sc&amp;quot;, sans-serif; font-size: 14px; font-weight: 400; background-color: rgb(255, 255, 255);&quot;&gt;no-store 彻底得禁用缓冲，本地和代理服务器都不缓冲，每次都从服务器获取&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-7;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;fontColor=#FF3333;spacingLeft=8;spacingRight=9;spacingBottom=9;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="335" width="190" height="235" as="geometry"/>
+        </mxCell>
+        <UserObject label="https://zhuanlan.zhihu.com/p/44789005" link="https://zhuanlan.zhihu.com/p/44789005" id="FxdTvAPtLqqA7UkRKLkz-26">
+          <mxCell style="text;html=1;fontSize=14;fontColor=#FF3333;" vertex="1" parent="1">
+            <mxGeometry x="-1190" y="460" width="270" height="30" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <mxCell id="FxdTvAPtLqqA7UkRKLkz-27" value="对比缓存1&#xa;Last-Modified &amp; &#xa;If-Modified-Since&#xa;&#xa;请求的时候 寻找缓存中的&#xa;对比缓存&#xa;Last-Modified &#xa;放入If-Modified-Since中去&#xa;&#xa;缺点：&#xa;资源更新秒以下速度，此缓存不被使用&#xa;&#xa;如果文件是通过服务器动态生成的，&#xa;那么该方法的更新时间永远是生成的时&#xa;间，尽管文件可能没有变化，所以起不&#xa;到缓存的作用。" style="rounded=1;arcSize=10;dashed=1;strokeColor=#ff0000;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;align=left;spacingLeft=8;spacingRight=8;" vertex="1" parent="1">
+          <mxGeometry x="-675" y="738" width="225" height="250" as="geometry"/>
+        </mxCell>
+        <mxCell id="FxdTvAPtLqqA7UkRKLkz-28" value="对比缓存2&#xa;Etag &amp; If-None-Match&#xa;&#xa;etag中使用的是hash值替换了时间作为&#xa;唯一的标示，其他的都一样" style="rounded=1;arcSize=10;dashed=1;strokeColor=#ff0000;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;align=left;spacingLeft=8;spacingRight=8;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="738" width="225" height="250" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
