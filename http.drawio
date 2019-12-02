@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-02T03:16:23.434Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="ip_hN4cfhbCw32jnA9ln" version="12.3.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-02T07:45:19.664Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="CKkVbnIl1YLaIlCcEeIx" version="12.3.3" type="github" pages="1">
   <diagram id="m3J9kFqykPF54zMLwvkE" name="Page-1">
     <mxGraphModel dx="3271" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -217,6 +217,54 @@
         </mxCell>
         <mxCell id="FxdTvAPtLqqA7UkRKLkz-28" value="对比缓存2&#xa;Etag &amp; If-None-Match&#xa;&#xa;etag中使用的是hash值替换了时间作为&#xa;唯一的标示，其他的都一样" style="rounded=1;arcSize=10;dashed=1;strokeColor=#ff0000;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;align=left;spacingLeft=8;spacingRight=8;" vertex="1" parent="1">
           <mxGeometry x="-390" y="738" width="225" height="250" as="geometry"/>
+        </mxCell>
+        <mxCell id="FxdTvAPtLqqA7UkRKLkz-29" value="前端安全" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="-2300" y="1750" width="120" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="FxdTvAPtLqqA7UkRKLkz-30" value="" style="curved=1;endArrow=classic;html=1;fontSize=14;fontColor=#FF3333;" edge="1" parent="1" target="FxdTvAPtLqqA7UkRKLkz-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2180" y="1790" as="sourcePoint"/>
+            <mxPoint x="-2090" y="1660" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="-2130" y="1790"/>
+              <mxPoint x="-2180" y="1740"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FxdTvAPtLqqA7UkRKLkz-31" value="存储型 XSS 攻击&lt;br&gt;利用漏洞将js上传&lt;br&gt;到服务器" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2019" y="1640" width="120" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="FxdTvAPtLqqA7UkRKLkz-32" value="" style="curved=1;endArrow=classic;html=1;fontSize=14;fontColor=#FF3333;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FxdTvAPtLqqA7UkRKLkz-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2115" y="1830" as="sourcePoint"/>
+            <mxPoint x="-2020" y="1810" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="-2065" y="1830"/>
+              <mxPoint x="-2115" y="1780"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FxdTvAPtLqqA7UkRKLkz-33" value="xss攻击&#xa;1、　窃取cookie,然后通过 XMLHttpRequest 或者 Fetch&#xa; 加上 CORS 功能将数据发送给恶意服务器；恶意服务器拿到用&#xa;户的 Cookie 信息之后，就可以在其他电脑上模拟用户的登录，&#xa;然后进行转账等操作。&#xa;2 、 监听用户行为、表单输入&#xa;3、 伪造登录床后&#xa;4、生成弹框广告、影响用户体验" style="rounded=1;arcSize=10;dashed=1;strokeColor=#ff0000;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;align=left;spacingLeft=8;spacingRight=8;" vertex="1" parent="1">
+          <mxGeometry x="-2209" y="1360" width="390" height="200" as="geometry"/>
+        </mxCell>
+        <mxCell id="FxdTvAPtLqqA7UkRKLkz-34" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;lantinghei sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft sans serif&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;helvetica&amp;#34; , sans-serif ; font-size: 10px ; white-space: normal ; background-color: rgb(255 , 255 , 255)&quot;&gt;反射型 XSS 攻击&lt;br&gt;在亲故参数加上js，&lt;br&gt;服务器又将其&lt;br&gt;显示在页面&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="-2019" y="1770" width="120" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="FxdTvAPtLqqA7UkRKLkz-35" value="" style="curved=1;endArrow=classic;html=1;fontSize=10;fontColor=#FF3333;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FxdTvAPtLqqA7UkRKLkz-29" target="FxdTvAPtLqqA7UkRKLkz-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2050" y="1910" as="sourcePoint"/>
+            <mxPoint x="-1970" y="1950" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="-2010" y="1930"/>
+              <mxPoint x="-2050" y="1860"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FxdTvAPtLqqA7UkRKLkz-36" value="基于DOM的xss&lt;br&gt;不经过服务器&lt;br&gt;在web资源传输&lt;br&gt;过程/用户的操作" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2030" y="1910" width="120" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="FxdTvAPtLqqA7UkRKLkz-37" value="如何阻止 XSS 攻击&#xa;1、服务器对输入脚本进行过滤或转码&#xa;2、充分利用 CSP（Content Security Policy &#xa;）&#xa;-限制加载其他域下的资源文件，这样即使黑客插入了一个 JavaScript&#xa;文件，这个 JavaScript 文件也是无法被加载的；&#xa;-禁止向第三方域提交数据，这样用户数据也不会外泄；&#xa;-禁止执行内联脚本和未授权的脚本；&#xa;-还提供了上报机制，这样可以帮助我们尽快发现有哪些 XSS 攻击，&#xa;以便尽快修复问题&#xa;&#xa;3、HttpOnly  只能在http请求的时候使用·" style="rounded=1;arcSize=10;dashed=1;strokeColor=#ff0000;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;align=left;spacingLeft=8;spacingRight=8;" vertex="1" parent="1">
+          <mxGeometry x="-2330" y="2030" width="390" height="200" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
