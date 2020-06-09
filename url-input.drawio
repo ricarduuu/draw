@@ -1,1 +1,81 @@
-<mxfile host="www.draw.io" modified="2019-12-16T09:39:19.947Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36" etag="3vNb7rZzdNJHnfluo8an" version="12.4.2" type="github" pages="1"><diagram id="yM2oXQm_O7SmmgI67K22" name="Page-1">jZLbboMwDIafhstJQNSp3MLYQdM0aUzbZZWBS9IFglJz2tPPjHBSVWk3kf3FduLfdlhUdA+GV+JFZ6Ac3806h905vh8wn84B9CPYBcEIciOzEXkLSOQPWOhaWssMzptA1FqhrLYw1WUJKW4YN0a327CjVttXK57DBUhSri7pp8xQjNRnLFguHkHmwj7NmGt/XvAp2oKz4JluV4jFDouM1jhaRReBGsSbhBnz7q/czj8zUOJ/Ep52b/D9/nooT7oJ8HR4jvHjxlZpuKptx7WhpFtFJcMvQ1Y+WLYD7CddqDSNgJyQ2qoGmCpd00thKyRCUvF0gC0tBTGBhSLPmys1YBC6q414szy0V6ALQNNTiN2h/aRou0zEm5hYDWNvGbdLkM+lFpnIsEpN7jKRv7vVXrP4Fw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-06-09T11:31:48.211Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="T1sz4kfv51oaS9Gm5HFL" version="13.1.14" type="github">
+  <diagram id="yM2oXQm_O7SmmgI67K22" name="Page-1">
+    <mxGraphModel dx="946" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="I5RekTO_njov9tj_KEtV-1" value="url&lt;br&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="520" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XSZjby6xiS5L8jVtObux-1" value="渲染进程" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="820" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XSZjby6xiS5L8jVtObux-2" value="网络进程" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="520" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XSZjby6xiS5L8jVtObux-3" value="浏览器进程" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XSZjby6xiS5L8jVtObux-4" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.933;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="XSZjby6xiS5L8jVtObux-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="560" as="sourcePoint" />
+            <mxPoint x="670" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XSZjby6xiS5L8jVtObux-5" value="发起url请求" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="485" y="490" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XSZjby6xiS5L8jVtObux-6" value="解析相映数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="505" y="540" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XSZjby6xiS5L8jVtObux-7" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="560" as="sourcePoint" />
+            <mxPoint x="360" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XSZjby6xiS5L8jVtObux-8" value="解析完数据发送给浏览器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="344" y="331" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XSZjby6xiS5L8jVtObux-9" value="" style="curved=1;endArrow=classic;html=1;exitX=0.16;exitY=0.55;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.167;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="XSZjby6xiS5L8jVtObux-3" target="XSZjby6xiS5L8jVtObux-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="620" as="sourcePoint" />
+            <mxPoint x="270" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="250" y="620" />
+              <mxPoint x="200" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XSZjby6xiS5L8jVtObux-10" value="通知渲染进程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="144" y="703" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XSZjby6xiS5L8jVtObux-11" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.625;exitY=0.2;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="XSZjby6xiS5L8jVtObux-1" target="XSZjby6xiS5L8jVtObux-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="620" as="sourcePoint" />
+            <mxPoint x="510" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XSZjby6xiS5L8jVtObux-12" value="收到消息后建立数据通道" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="694" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XSZjby6xiS5L8jVtObux-13" value="" style="curved=1;endArrow=classic;html=1;exitX=0.07;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.07;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="XSZjby6xiS5L8jVtObux-1" target="XSZjby6xiS5L8jVtObux-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="840" as="sourcePoint" />
+            <mxPoint x="210" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="840" />
+              <mxPoint x="170" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XSZjby6xiS5L8jVtObux-14" value="接收数据后&lt;br&gt;向浏览器提交状态&lt;br&gt;通知其更新页面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="436" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XSZjby6xiS5L8jVtObux-15" value="data" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="430" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
