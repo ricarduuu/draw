@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-04T09:45:50.576Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="SxArk6Jv1FEcmBPO4wu4" version="13.5.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-04T11:10:41.728Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="op0ZUrWhQcKiT2XsmGm4" version="13.5.9" type="github">
   <diagram id="fMH37jqwa5DAqy2-OgGY" name="Page-1">
     <mxGraphModel dx="946" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
       <root>
@@ -15,9 +15,6 @@
         </mxCell>
         <mxCell id="6sF-m4O3xJEebA5fXuFb-5" value="Foo" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="230" y="150" width="80" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="6sF-m4O3xJEebA5fXuFb-6" value="f1" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="470" y="330" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="6sF-m4O3xJEebA5fXuFb-7" value="Function.prototype" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="200" y="300" width="110" height="60" as="geometry" />
@@ -70,7 +67,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6sF-m4O3xJEebA5fXuFb-18" value="__proto__" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="40" y="394" width="40" height="20" as="geometry" />
+          <mxGeometry x="30" y="394" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="6sF-m4O3xJEebA5fXuFb-19" value="" style="endArrow=classic;html=1;exitX=0.413;exitY=1.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="6sF-m4O3xJEebA5fXuFb-8" target="6sF-m4O3xJEebA5fXuFb-18" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
